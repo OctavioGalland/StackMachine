@@ -14,9 +14,8 @@ int main (int argc, char *argv[]) {
         outputFilename = argv[2];
     }
     try {
-        Program *p = new Program(argv[1]);
-        p->dumpToFile(outputFilename.c_str());
-        delete p;
+        Program p(argv[1]);
+        p.dumpToFile(outputFilename.c_str());
     } catch (std::exception& e) {
         std::cerr << e.what() << std::endl;
     }
