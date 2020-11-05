@@ -1,0 +1,6 @@
+.clangd
+.compile_commands.json
+**/*.o
+**/*.bin
+Machine/machine
+Assembler/assembler
