@@ -1,0 +1,82 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-g",
+            "-Wall",
+            "-std=c++11",
+            "-Iinc",
+            "-I../inc",
+            "-o",
+            "obj/Program.o",
+            "src/Program.cpp"
+        ],
+        "directory": "/home/octavio/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/quarkslab/Assignment/Assembler",
+        "file": "src/Program.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-g",
+            "-Wall",
+            "-std=c++11",
+            "-Iinc",
+            "-I../inc",
+            "-o",
+            "obj/Machine.o",
+            "src/Machine.cpp"
+        ],
+        "directory": "/home/octavio/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/quarkslab/Assignment/Machine",
+        "file": "src/Machine.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-g",
+            "-Wall",
+            "-std=c++11",
+            "-Iinc",
+            "-I../inc",
+            "-o",
+            "obj/main.o",
+            "src/main.cpp"
+        ],
+        "directory": "/home/octavio/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/quarkslab/Assignment/Assembler",
+        "file": "src/main.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-g",
+            "-Wall",
+            "-std=c++11",
+            "-Iinc",
+            "-I../inc",
+            "-o",
+            "obj/main.o",
+            "src/main.cpp"
+        ],
+        "directory": "/home/octavio/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/quarkslab/Assignment/Machine",
+        "file": "src/main.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-g",
+            "-Wall",
+            "-std=c++11",
+            "-Iinc",
+            "-I../inc",
+            "-o",
+            "obj/utils.o",
+            "src/utils.cpp"
+        ],
+        "directory": "/home/octavio/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/quarkslab/Assignment/Assembler",
+        "file": "src/utils.cpp"
+    }
+]
