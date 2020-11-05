@@ -56,6 +56,6 @@ To assemble a source file, just run `./Assembler/assembler input.asm output.bin`
 
 To run a program use `./Machine/machine input.bin`. The input file must be a valid series of instructions stored as raw bytes. If hand-writing binary code remember the binary will always be loaded at address `0x00000000` and the stack pointer initially has the maximum memmory available as it's value (as before writing into the stack, the stack pointer needs to be decremented, this doesn't result in errors as long as the amount of popped values is less than or equal to the ammount of pushed values).
 
-The machine also supports an optional parameter `-m` which allows the user to indicate the desired amount of RAM allocate for the machine.
+The machine also supports an optional parameter `-m` which allows the user to indicate the desired amount of RAM (in bytes) to allocate for the machine. The default value for this parameter is `4096` bytes.
 
 A little example program is given that reads an input from the stack, and prints -1 if it less than 0, or 1 otherwise.
